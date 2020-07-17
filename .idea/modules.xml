@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-Live-Tic-Tac-Toe-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-Live-Tic-Tac-Toe-master.iml" group="Tic-Tac-Toe-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Live-Tic-Tac-Toe-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Live-Tic-Tac-Toe-master-app.iml" group="Tic-Tac-Toe-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Live-Tic-Tac-Toe-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Live-Tic-Tac-Toe-master.iml" group="Tic-Tac-Toe-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Live-Tic-Tac-Toe-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Live-Tic-Tac-Toe-master-app.iml" group="Tic-Tac-Toe-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe-master.iml" group="Tic-Tac-Toe-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tic-Tac-Toe-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tic-Tac-Toe-master-app.iml" group="Tic-Tac-Toe-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToe.iml" filepath="$PROJECT_DIR$/TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tic_tac_toe.iml" filepath="$PROJECT_DIR$/tic_tac_toe.iml" />
+    </modules>
+  </component>
+</project>
