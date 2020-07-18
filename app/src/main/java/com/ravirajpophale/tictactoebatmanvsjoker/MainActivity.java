@@ -1,7 +1,7 @@
-package com.ravirajpophale.tictactoe;
+package com.ravirajpophale.tictactoebatmanvsjoker;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -16,6 +16,8 @@ import java.util.List;
 
 import android.view.View;
 import android.widget.ArrayAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 

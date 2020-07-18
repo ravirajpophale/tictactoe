@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#9F8220"
-    tools:context="com.ravirajpophale.tictactoe.MainActivity">
+    android:background="@drawable/background"
+    tools:context="com.ravirajpophale.tictactoebatmanvsjoker.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="Tic Tac Toe"
+            android:textColor="#00B0FF"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="50dp"
             android:textStyle="bold" />
@@ -29,12 +30,12 @@
             android:id="@+id/playerone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-thin"
+            android:fontFamily="casual"
             android:hint="Player 1 name"
             android:imeActionLabel="NEXT"
             android:imeOptions="actionNext"
             android:inputType="textCapSentences|textPersonName"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/holo_purple" />
          
 
         <LinearLayout
@@ -53,7 +54,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
-                android:text=" X "
+                android:text=" Joker "
                 android:textStyle="bold" />
 
             <CheckBox
@@ -63,7 +64,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
-                android:text=" O "
+                android:text=" Batman "
                 android:textStyle="bold" />
 
 
@@ -75,10 +76,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:fontFamily="sans-serif-thin"
+            android:fontFamily="casual"
             android:hint="Player 2 Name"
             android:imeActionLabel="DONE"
             android:imeOptions="actionDone"
+            android:textColor="@android:color/holo_purple"
             android:inputType="textCapSentences|textPersonName" />
          
 
@@ -96,7 +98,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
-                android:text=" X "
+                android:text=" Joker "
                 android:textStyle="bold" />
 
             <CheckBox
@@ -106,7 +108,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
-                android:text=" O "
+                android:text=" Batman "
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -128,14 +130,14 @@
                     android:id="@+id/splayer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-thin"
+                    android:fontFamily="casual"
                     android:text="Single player" />
 
                 <CheckBox
                     android:id="@+id/tplayer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-thin"
+                    android:fontFamily="casual"
                     android:text="Two player" />
 
             </LinearLayout>

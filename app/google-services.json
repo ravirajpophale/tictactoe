@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495392350654",
+    "firebase_url": "https://games-edfa2.firebaseio.com",
+    "project_id": "games-edfa2",
+    "storage_bucket": "games-edfa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495392350654:android:2d4e5c96209b2b5ead99ef",
+        "android_client_info": {
+          "package_name": "com.ravirajpophale.tictactoebatmanvsjoker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495392350654-s9uot0mens5vd7jd8iqscgbuvpa7r1vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19yujmjSbR67ueG9dMAT6rU4o1Kr0cjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495392350654-s9uot0mens5vd7jd8iqscgbuvpa7r1vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

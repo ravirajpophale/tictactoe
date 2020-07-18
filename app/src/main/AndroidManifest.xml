@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ravirajpophale.tictactoe">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ravirajpophale.tictactoebatmanvsjoker">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.ravirajpophale.tictactoe.MainActivity"
+            android:name="com.ravirajpophale.tictactoebatmanvsjoker.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity
-            android:name="com.ravirajpophale.tictactoe.Afterstart"
+            android:name="com.ravirajpophale.tictactoebatmanvsjoker.Afterstart"
             android:label="@string/title_activity_afterstart"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ravirajpophale.tictactoe.SplashScreen"
+            android:name="com.ravirajpophale.tictactoebatmanvsjoker.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/MyTheme">
             <intent-filter>
@@ -30,6 +31,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Firebase Notification stuff -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/mini" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@drawable/mini" />
+        <service
+            android:name="com.ravirajpophale.tictactoebatmanvsjoker.MyFirebaseMessagingService"
+            android:exported="false"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="tictactoe" />
+
     </application>
 
 </manifest>
